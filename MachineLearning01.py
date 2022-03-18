@@ -1,0 +1,13 @@
+from sklearn import datasets
+print(datasets)
+iris = datasets.load_iris()
+print("Numero de instancias:",len(iris.data))
+print("Numero de atributos:",len(iris.data[0]))
+print("Significado de los atributos:",iris.feature_names)
+print("Numero de clases:",len(iris.target_names))
+print("Nombre de las clases:",iris.target_names)
+print(iris.data)
+print(iris.target)
+#print(iris)
+#print(iris.target)
+print(iris.DESCR)
